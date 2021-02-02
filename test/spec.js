@@ -8,7 +8,7 @@ describe('Test', () => {
 
   describe('First Test', () => {
     it('passes a test', () => {
-      expect(1).to.equal(1);
+      expect(2).to.equal(2);
     });
     it('pings the API', async () => {
       const response = await app.get('/');
