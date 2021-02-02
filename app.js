@@ -8,6 +8,6 @@ app.get('/', (req, res, next) => {
   res.status(200).send('some text');
 });
 
-app.listen(port, () => console.log(`listening on port ${port}`));
+// app.listen(port, () => console.log(`listening on port ${port}`));
 
 module.exports = app;
