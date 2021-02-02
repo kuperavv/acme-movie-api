@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const { syncAndSeed } = require('../db');
 
-const app = require('supertest')(require('../app'));
+// const app = require('supertest')(require('../app'));
 
 describe('Test', () => {
   beforeEach(() => syncAndSeed());
